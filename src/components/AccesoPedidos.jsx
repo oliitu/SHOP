@@ -7,7 +7,7 @@ function AccesoPedidos() {
 
   const verificarClave = () => {
     if (password === "papota") {
-      window.location.href = "/pedidos/index.html";
+      window.location.href = "https://biteme-pedidos.netlify.app/";
     } else {
       setError("Contraseña incorrecta");
     }
